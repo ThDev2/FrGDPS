@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -287,8 +287,9 @@
           <i class="fas fa-comment-dots"></i>
         </div>
       </div>
+      <img src="demon.png" alt="FrDL Logo" style="max-height: 50px; margin-bottom: .5rem;" />
       <h1>Freedom Feedback</h1>
-      <p>An open platform to express your opinions, suggestions, and input. Every vote is appreciated!</p>
+      <p>An Open Community GDPS That Accepts Input (feedback), Whatever It Is.</p>
     </header>
     
     <div class="stats-container">
@@ -320,10 +321,8 @@
         <thead>
           <tr>
             <th>Timestamp</th>
-            <th>Name</th>
-            <th>Email</th>
+            <th>Nickname</th>
             <th>Feedback</th>
-            <th>Categories</th>
           </tr>
         </thead>
         <tbody id="feedbackTableBody">
@@ -374,10 +373,8 @@
       
       data.forEach(row => {
         const timestamp = row['Timestamp'] || '-';
-        const name = row['Nama Anda'] || 'Anonim';
-        const email = row['Email Anda'] || '-';
-        const feedback = row['Feedback Anda'] || '-';
-        const category = row['Kategori Feedback'] || 'Umum';
+        const name = row['Nickname'] || 'Annonymous';
+        const feedback = row['Feedback'] || 'I Want Fless';
         
         // Count recent feedback (within 7 days)
         const feedbackDate = new Date(timestamp);
@@ -389,9 +386,7 @@
         tr.innerHTML = `
           <td class="timestamp">${timestamp}</td>
           <td>${name}</td>
-          <td>${email}</td>
           <td>${feedback}</td>
-          <td>${category}</td>
         `;
         tableBody.appendChild(tr);
       });
