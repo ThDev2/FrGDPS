@@ -17,7 +17,7 @@
 
 ---
 
-## 🌱 Why FreedomGDPS?
+## 🌱 Why FreedomGDPS
 
 **Not the biggest. Not the fanciest.** But built with:
 
