@@ -86,7 +86,8 @@
 
 ## 💌 Support the Journey
 
-**Help keep our dream alive:**  
+**Help keep our dream alive:**
+[![Tako](https://img.shields.io/badge/Support-Tako-4292C6)](https://saweria.co/thiosaputra)
 [![Saweria](https://img.shields.io/badge/Support-Saweria-FFD700)](https://saweria.co/thiosaputra)  
 [![SociaBuzz](https://img.shields.io/badge/Back-SociaBuzz-FF69B4)](https://sociabuzz.com/ameliapt)
 
