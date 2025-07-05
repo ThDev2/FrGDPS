@@ -20,20 +20,20 @@
   </url>
   <url>
 
-<loc>https://fless.netlify.app/rate.html</loc>
+<loc>https://fless.netlify.app/feedback</loc>
     <lastmod>2025-05-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
    
-    <loc>https://fless.netlify.app/social.html</loc>
+    <loc>https://fless.netlify.app/feedback/terms.html</loc>
     <lastmod>2025-05-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://fless.netlify.app/privacy.html</loc>
+    <loc>https://fless.netlify.app/tools.html</loc>
     <lastmod>2025-05-24</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
